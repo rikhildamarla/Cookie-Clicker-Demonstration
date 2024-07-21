@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+
+.App-header {
+  background-color: lightblue;
+  padding: 20px;
+  font-size: 24px;
+  color: black;
+}
+
+.cookie {
+  cursor: pointer;
+  width: 500px;
+  height: auto;
+  margin-top: 20px;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.fade-in {
+  opacity: 0.5;
+}
+
+.restart-button {
+  background-color: lightblue;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.restart-button:hover {
+  background-color: deepskyblue;
+}
